@@ -1,0 +1,31 @@
+.container-boxsets{
+    display: grid;
+    margin-top: 15.625rem;
+    grid-template-rows: repeat(3, 36.25rem);
+    grid-template-columns: repeat(3, 18.75rem);
+    margin-left: 500px;
+    figure{
+        img{
+            @include sizes (280px, 383px);
+            padding-right: 20px;
+            
+        }
+    }
+    figure{
+        a{
+            @include estilodeproducto;
+            &:hover{
+                color: rgba(26, 86, 170, 1);
+                transition: 0.4s;
+            }
+        }
+    }
+}
+
+    .bannerboxsets{
+        img{
+            width: 100%;
+            margin-top: 3.125rem;
+            margin-left: 50px;
+        }
+    }

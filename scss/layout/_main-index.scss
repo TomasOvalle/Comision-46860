@@ -1,0 +1,208 @@
+body{
+    background-image: linear-gradient(to right top, #37075e, #5e005d, #7e0058, #99004f, #af0143);
+    width: 1440px;
+}
+.banner{
+    img{
+        margin-bottom: 3.125rem;
+        margin-top: 3.125rem;
+        margin-left: 25px;
+    }
+}
+.titulo{
+    position: relative;
+    text-align: center;
+    margin-top: 3.125rem;
+    margin-bottom: 1.5625rem;
+    font-family: "slabo";
+}
+.container-mangas{
+    display: grid;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-left: 25px;
+    height: 31.25rem;
+    align-items: center;
+    background-color: #3693CE;
+    grid-template-columns: repeat(4, 1fr);
+    figure{
+        padding-left: 75px;
+        a{
+            text-decoration: none;
+            color: black;
+            &:hover{
+                color:rgba(26, 86, 170, 1);
+                transition: 0.4s;
+            }
+        }
+    }
+    figcaption{
+        font-family: "slabo";
+        margin-top: 5px;
+        padding: 2px;
+    }
+    figure{
+        img{
+            width: 205px;
+            height: 283px;
+        }
+    }
+    figure{
+        .btn{
+            background-color: #171A4F;
+        }
+    }
+}
+.texto{
+    display: flex;
+    flex-direction: column;
+    margin-top: 6.25rem;
+    margin-left: 12.5rem;
+    margin-right: 6.25rem;
+    margin-bottom: 6.25rem;
+    text-align: center;
+    font: $texto-font;
+}
+.editoriales{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    gap: .9375rem;
+    justify-content: center;
+    margin-top: 3.125rem;
+    margin-right: 3.125rem;
+    margin-bottom: 3.125rem;
+    margin-left: 25px;
+    align-items: center;
+    background-color: rgba(72, 202, 228, 1);
+    img{
+        width: 281px;
+        height: 79px;
+    }
+}
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 130px;
+    width: 1300px;
+    height: 300px;
+    font-size: 25px;
+    p{
+        font-size: 15px;
+        padding: 8px;
+    }
+    i{
+        position: relative;
+        bottom: 150px;
+    }
+}
+.demografias{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 100%;
+    background-color: black;
+    margin-bottom: 200px;
+    margin-left: 25px;
+    
+    .shojoBoton{
+        position: relative;
+        width: 60px;
+        height: 35px;
+        font-size: 20px;
+        text-align: center;
+        font-family:"slabo" ;
+        right: 175px;
+    }
+    .joseiBoton{
+        position: relative;
+        width: 60px;
+        height: 35px;
+        font-size: 20px;
+        text-align: center;
+        font-family:"slabo" ;
+        right: 175px;
+    }
+    .seinenBoton{
+    @extend .joseiBoton;
+    }
+    .shonenBoton{
+        position: relative;
+        width: 70px;
+        height: 35px;
+        font-size: 20px;
+        text-align: center;
+        font-family: "slabo";
+        right: 175px;
+    }
+    img{
+        width: 280px;
+        height: 476px;
+    }
+}
+.titulo2{
+    position: relative;
+    text-align: center;
+    margin-top: 6.25rem;
+    margin-bottom: 3.125rem;
+    font-size: 35px;
+    padding: 10px;
+    font-family: "slabo";
+}
+.container-mangas2{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 500px;
+    margin-left: 25px;
+    align-items: center;
+    background-image: linear-gradient(to right bottom, #90e0ef, #5bbfe1, #279dd3, #007ac2, #1a56aa);
+    figure{
+        a{
+            text-decoration: none;
+            color: black;
+            &:hover{
+                color:rgba(26, 86, 170, 1);
+                transition: 0.4s;
+            }
+        }
+    }
+    figure{
+        img{
+            width: 205px;
+            height: 283px;
+        }
+    }
+    figure{
+        .btn{
+            background-color: #171A4F;
+        }
+    }
+    figcaption{
+        font-family: "slabo";
+    }
+}
+.precioOriginal{
+    text-decoration: line-through;
+}
+.precioOferta{
+    color: $precio-oferta;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

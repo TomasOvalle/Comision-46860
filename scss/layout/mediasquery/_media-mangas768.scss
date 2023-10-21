@@ -1,0 +1,29 @@
+@media(max-width: 768px){
+
+.navbar{
+    margin-left: 0px;
+}
+.bannermangas{
+    img{
+        margin-left: 0;
+    }
+}
+.container-mangas3{
+    margin-left: 70px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+}
+
+.footer{
+    margin-left: 0;
+    h3{
+        padding-left: 10px;
+    }
+    ul{
+        li{
+            padding-left: 10px;
+        }
+    }
+}
+}

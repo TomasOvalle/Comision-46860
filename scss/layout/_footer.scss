@@ -1,0 +1,55 @@
+.footer{
+    width: 100%;
+    margin-top: 15.625rem;
+    margin-left: 25px;
+    background-color: #010608;
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+    "parte1 parte2 parte3"
+    "parte1 parte2 parte3"
+    ;
+    h3{
+        font-size: 30px;
+    }
+    .redesSociales{
+        grid-area: parte1;
+    }
+    .politicas{
+        grid-area: parte2;
+    }
+    .contactos{
+        grid-area: parte3;
+    }
+    .politicas{
+        ul{
+            li{
+                list-style: none;
+                text-decoration: none;
+            }
+        }
+    }
+    .contactos{
+        ul{
+            li{
+                list-style: none;
+                text-decoration: none;
+            }
+        }
+    }
+    .redesSociales{
+        padding-left: 10px;
+        ul{
+            li{
+                a{
+                    list-style: none;
+                    text-decoration: none;
+                    &:hover{
+                        color: rgba(26, 86, 170, 1);
+                    }
+                }
+            }
+        }
+    }
+}

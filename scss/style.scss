@@ -1,0 +1,40 @@
+/*primero se llama a las variables, mixins y todo lo que corresponda a las utilities*/
+
+@import "./utilities/variables";
+@import "./utilities/mixins";
+
+
+
+
+
+/*todo lo que es este en base*/
+
+@import "./base/reset";
+
+
+
+/*ahora llamo todo lo que es layout*/
+
+@import "./layout/main-novelas";
+@import "./layout/header";
+@import "./layout/main-index";
+@import "./layout/kanokari";
+@import "./layout/footer";
+@import "./layout/main-mangas";
+@import "./layout/main-ofertas";
+@import "./layout/main-artsbooks";
+@import "./layout/main-boxsets";
+@import "./layout/footer-artbooks";
+@import "./layout/mediasquery/media1440";
+@import "./layout/mediasquery/media992";
+@import "./layout/mediasquery/media768";
+@import "./layout/mediasquery/media-mangas768";
+@import "./layout/mediasquery/media-novelas768";
+@import "./layout/mediasquery/media-ofertas768";
+@import "./layout/mediasquery/media-boxsets768";
+@import "./layout/mediasquery/media-artbooks768";
+@import "./layout/mediasquery/media375";
+
+
+
+
