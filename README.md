@@ -25,6 +25,6 @@
 
 - **Nombre de la Empresa:** MangaHaven
 - **Correo Electrónico:** MangaHaven@gmail.com
-- **Sitio Web:** https://6531a50343a84e0930f9245f--marvelous-macaron-22a7bb.netlify.app/
+- **Sitio Web:** https://main--marvelous-macaron-22a7bb.netlify.app/
 ¡Gracias por elegir nuestra página de venta de mangas!
 
