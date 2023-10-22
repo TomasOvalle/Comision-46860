@@ -703,3 +703,97 @@ body {
     font-size: 18px; }
   .footer ul li, .footer-artbooks ul li {
     font-size: 15px; } }
+
+@media (max-width: 375px) {
+  body {
+    width: 100vw; }
+  header {
+    width: 100vw; }
+  .navbar {
+    width: 100vw; }
+  .container-mangas3 {
+    margin-top: 175px;
+    margin-left: 0;
+    width: 100vw;
+    height: 2000px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); }
+    .container-mangas3 figure {
+      padding-left: 0;
+      margin-left: 20px; }
+      .container-mangas3 figure img {
+        width: 114px;
+        height: 165px;
+        padding-right: 0; }
+  .footer .redesSociales h3, .footer-artbooks .redesSociales h3 {
+    font-size: 18px; }
+  .footer .politicas h3, .footer-artbooks .politicas h3 {
+    font-size: 18px; }
+  .footer .contactos h3, .footer-artbooks .contactos h3 {
+    font-size: 18px; }
+  .footer ul li, .footer-artbooks ul li {
+    font-size: 15px; } }
+
+@media (max-width: 375px) {
+  .container-mangas4 {
+    margin-top: 175px;
+    margin-left: 0;
+    width: 100vw;
+    height: 2000px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); }
+    .container-mangas4 figure {
+      padding-left: 0;
+      margin-left: 20px; }
+      .container-mangas4 figure img {
+        width: 114px;
+        height: 165px;
+        padding-right: 0; } }
+
+@media (max-width: 375px) {
+  .container-boxsets {
+    margin-top: 175px;
+    margin-left: 0;
+    width: 100vw;
+    height: 2000px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); }
+    .container-boxsets figure {
+      padding-left: 0;
+      margin-left: 20px; }
+      .container-boxsets figure img {
+        width: 114px;
+        height: 165px;
+        padding-right: 0; } }
+
+@media (max-width: 375px) {
+  .artbooks {
+    margin-top: 175px;
+    margin-left: 0;
+    width: 100vw;
+    height: 2000px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); }
+    .artbooks figure {
+      padding-left: 0;
+      margin-left: 20px; }
+      .artbooks figure img {
+        width: 114px;
+        height: 165px;
+        padding-right: 0; } }
+
+@media (max-width: 375px) {
+  .ofertas {
+    margin-top: 175px;
+    margin-left: 0;
+    width: 100vw;
+    height: 2000px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); }
+    .ofertas figure {
+      padding-left: 0;
+      margin-left: 20px; }
+      .ofertas figure img {
+        width: 114px;
+        height: 165px;
+        padding-right: 0; } }

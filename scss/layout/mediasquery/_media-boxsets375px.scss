@@ -1,0 +1,19 @@
+@media(max-width: 375px){
+    .container-boxsets{
+        margin-top: 175px;
+        margin-left: 0;
+        width: 100vw;
+        height: 2000px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        figure{
+            padding-left: 0;
+            margin-left: 20px;
+            img{
+                width: 114px;
+                height: 165px;
+                padding-right: 0;
+            }
+        }
+    }
+}

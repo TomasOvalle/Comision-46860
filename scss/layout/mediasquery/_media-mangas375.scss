@@ -1,0 +1,50 @@
+@media(max-width: 375px){
+    body{
+        width: 100vw;
+    }
+    header{
+        width: 100vw;
+    }
+    .navbar{
+        width: 100vw;
+    }
+    .container-mangas3{
+        margin-top: 175px;
+        margin-left: 0;
+        width: 100vw;
+        height: 2000px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        figure{
+            padding-left: 0;
+            margin-left: 20px;
+            img{
+                width: 114px;
+                height: 165px;
+                padding-right: 0;
+            }
+        }
+    }
+    .footer{
+        .redesSociales{
+            h3{
+                font-size: 18px;
+            }
+        }
+        .politicas{
+            h3{
+                font-size: 18px;
+            }
+        }
+        .contactos{
+            h3{
+                font-size: 18px;
+            }
+        }
+        ul{
+            li{
+                font-size: 15px;
+            }
+        }
+    }
+}
